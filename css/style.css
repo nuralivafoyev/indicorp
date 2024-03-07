@@ -58,7 +58,6 @@ header .nav .nav_list li a:hover {
 #intro {
   background-image: url("../../assets/images/intro-background.png");
   background-repeat: no-repeat;
-  width: 100vw;
   height: 100vh;
   background-size: cover;
   display: flex;
@@ -140,4 +139,105 @@ header .nav .nav_list li a:hover {
 }
 #intro .intro_bottom .card-primary h1, #intro .intro_bottom .card-primary p {
   color: #fff;
+}
+
+.chooseus {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  gap: 50px;
+  background: #FAFAFA;
+}
+.chooseus .chooseus_top {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.chooseus .chooseus_top h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #252B42;
+}
+.chooseus .chooseus_top p {
+  font-weight: 14px;
+  font-weight: 500;
+  color: #737373;
+  width: 511px;
+}
+.chooseus .chooseus_cards {
+  display: flex;
+  gap: 20px;
+}
+.chooseus .chooseus_cards .choose_card {
+  background-color: #fff;
+  width: 238px;
+  height: 209px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.practice {
+  background-color: #FAFAFA;
+  padding-top: 185px;
+  display: grid;
+  place-content: center;
+  gap: 45px;
+}
+.practice_top {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.practice_top h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #252B42;
+}
+.practice_top p {
+  width: 470px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #737373;
+}
+.practice_cards {
+  display: flex;
+  gap: 34px;
+}
+.practice_cards .card {
+  width: 230px;
+  height: 341px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  padding-top: 30px;
+}
+.practice_cards .card img {
+  position: absolute;
+  bottom: 0px;
+}
+.practice_cards .card h1 {
+  width: 130px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #252B42;
+}
+.practice_cards .card p {
+  width: 160px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #737373;
 }/*# sourceMappingURL=style.css.map */
