@@ -22,7 +22,6 @@
             font-weight: 800;
             font-size: 58px;
             color: #252b42;
-
         }
 
         .intro_buttons {
@@ -37,30 +36,29 @@
 
             a .primary-btn {
                 border: none;
-                background-color: #FFA62B;
+                background-color: #ffa62b;
                 color: #fff;
                 border: 2px solid transparent;
 
                 &:hover,
                 &:focus {
-                    color: #FFA62B;
+                    color: #ffa62b;
                     background-color: transparent;
-                    border: 2px solid #FFA62B;
+                    border: 2px solid #ffa62b;
                 }
             }
 
             a .secondary-btn {
-                border: 2px solid #00A0C1;
-                color: #00A0C1;  
+                border: 2px solid #00a0c1;
+                color: #00a0c1;
                 background-color: transparent;
 
                 &:hover,
                 &:focus {
-                    background-color: #00A0C1;
+                    background-color: #00a0c1;
                     color: #fff;
                 }
             }
-
         }
     }
 
@@ -86,16 +84,23 @@
                 color: #252b42;
             }
 
-            p{
+            p {
                 font-weight: 500;
                 font-size: 14px;
                 color: #737373;
             }
+
+            &:hover {
+                box-shadow:
+                    rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+                    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            }
         }
 
         .card-primary {
-            background-color: #00A0C1;
-            h1, p{
+            background-color: #00a0c1;
+            h1,
+            p {
                 color: #fff;
             }
         }
